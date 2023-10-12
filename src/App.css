@@ -21,8 +21,14 @@ input {
 .mention-dropdown {
 	height: 50vh;
 	overflow: scroll;
+	border-width: 1px;
 }
 
 .users {
 	padding: 2px 10px;
+	cursor: pointer;
+}
+
+input::marker {
+	background-color: red;
 }
