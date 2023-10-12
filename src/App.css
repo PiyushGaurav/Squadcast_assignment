@@ -22,6 +22,7 @@ input {
 	height: 50vh;
 	overflow: scroll;
 	border-width: 1px;
+	border-color: black;
 }
 
 .users {
@@ -29,6 +30,6 @@ input {
 	cursor: pointer;
 }
 
-input::marker {
-	background-color: red;
+.users:hover {
+	background-color: #9cd3ec;
 }

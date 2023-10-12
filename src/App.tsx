@@ -51,7 +51,7 @@ const App: React.FC = () => {
 	};
 
 	const handleMentionClick = (mention: User) => {
-		const newText = text.replace(new RegExp(`@${mentionSearch}` + '$'), `@${mention.first_name} ${mention.last_name} `);
+		const newText = text.replace(new RegExp(`@${mentionSearch}` + '$'), `@${mention.first_name} `);
 		setText(newText);
 		setShowMentions(false);
 	};
